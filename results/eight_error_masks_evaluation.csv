@@ -1,0 +1,9 @@
+mask,weight,syndrome,diagnosed_error,decoder_action,logical_fidelity,classification,outcome
+000,0,00,No bit-flip error detected,Identity (No correction),1.0,No Error (Preserved),Ideal Logical State
+100,1,10,Single bit-flip detected on data qubit 0,Apply X on data qubit 0,1.0,Correctable Single Error,Successfully Corrected
+010,1,11,Single bit-flip detected on data qubit 1,Apply X on data qubit 1,1.0,Correctable Single Error,Successfully Corrected
+001,1,01,Single bit-flip detected on data qubit 2,Apply X on data qubit 2,1.0,Correctable Single Error,Successfully Corrected
+110,2,01,Single bit-flip detected on data qubit 2,Apply X on data qubit 2,0.0,Uncorrectable Double Error (Miscorrected),Logical Bit-Flip Inversion
+101,2,11,Single bit-flip detected on data qubit 1,Apply X on data qubit 1,0.0,Uncorrectable Double Error (Miscorrected),Logical Bit-Flip Inversion
+011,2,10,Single bit-flip detected on data qubit 0,Apply X on data qubit 0,0.0,Uncorrectable Double Error (Miscorrected),Logical Bit-Flip Inversion
+111,3,00,No bit-flip error detected,Identity (No correction),0.0,Uncorrectable Triple Error (Undetected),Logical Bit-Flip Inversion

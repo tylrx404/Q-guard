@@ -1,0 +1,2 @@
+faulty_ground_truth_threshold,decision_threshold_tau,sample_size_N,true_positives,false_positives,true_negatives,false_negatives,precision,recall_sensitivity,specificity,false_positive_rate,accuracy,f1_score
+0.1,0.11,300,50,0,50,0,1.0,1.0,1.0,0.0,1.0,1.0
